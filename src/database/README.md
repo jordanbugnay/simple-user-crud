@@ -9,13 +9,19 @@ Basic user CRUD
 #### 1. Install dependencies
 
 ```javascript
-npm i
+yarn install
 ```
 
 #### 2. Edit .env file
 
+#### 3. Build server
+
+```javascript
+yarn build
+```
+
 #### 3. Run server
 
 ```javascript
-npm start
+yarn start
 ```
