@@ -5,8 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "babel src --source-maps --copy-files --out-dir dist && node dist",
-    "dev": "nodemon --exec babel-node ./src/index.js",
+    "start": "nodemon --exec babel-node ./src/index.js",
     "test": "echo \"Error: no test specified\" && exit 1",
     "build": "babel src --source-maps --copy-files --out-dir dist"
   },
@@ -28,12 +27,12 @@
     "express": "^4.17.1",
     "helmet": "^3.21.3",
     "pg": "^7.18.2",
-    "sequelize": "^5.21.5",
-    "@babel/core": "^7.8.7",
-    "@babel/node": "^7.8.4",
-    "@babel/preset-env": "^7.8.6"
+    "sequelize": "^5.21.5"
   },
   "devDependencies": {
+    "@babel/core": "^7.8.7",
+    "@babel/node": "^7.8.4",
+    "@babel/preset-env": "^7.8.6",
     "dotenv": "^8.2.0",
     "faker": "^4.1.0",
     "nodemon": "^2.0.2",
